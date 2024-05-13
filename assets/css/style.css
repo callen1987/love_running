@@ -13,9 +13,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic, project styles */
+    /* Generic project styles */
     color: 3a3a3a;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -60,7 +60,7 @@ h1 {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position:absolute;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     padding: 0 1rem;
@@ -85,10 +85,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -138,12 +144,12 @@ main {
     /* Main content */
 
     main {
-        /* Push main content down to accommodate header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px; 
     }
 }
 
-/* Large Devices (laptops and desktops, 992x and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
