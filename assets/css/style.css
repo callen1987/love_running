@@ -157,12 +157,13 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    
 }
 
 #benefits-image {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 /* Meetup Times section */
@@ -386,7 +387,7 @@ main {
     }
 
     #benefits-image {
-        order: 0
+        order: 0;
     }
 
     #benefits-mental {
